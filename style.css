@@ -1,3 +1,77 @@
 * {
     font-family: "Inter", sans-serif;
 }
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    min-height: 30rem;
+    background-image: url('https://s2-g1.glbimg.com/LwqjbBBTxzKBrx0vQSOaDU4xiAY=/0x0:1269x783/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/y/T/SSAnGhRzSRAr7iaHjGGg/whatsapp-image-2020-07-31-at-14.41.24.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 0;
+    justify-content: space-evenly;
+
+    a {
+        text-decoration: none;
+        color: oklch(52.7% 0.154 150.069);
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+header article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    color: #fafafa;
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+main {
+    background-color: #a3a3a3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0rem 8rem;
+}
+
+main section {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+main section img {
+  width: 50%;
+}
+
+main section:nth-child(even) {
+  flex-direction: row-reverse;
+}
