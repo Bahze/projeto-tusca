@@ -9,10 +9,12 @@ body {
 header {
     width: 100%;
     min-height: 30rem;
-    background-image: url('https://s2-g1.glbimg.com/LwqjbBBTxzKBrx0vQSOaDU4xiAY=/0x0:1269x783/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/y/T/SSAnGhRzSRAr7iaHjGGg/whatsapp-image-2020-07-31-at-14.41.24.jpeg');
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://s2-g1.glbimg.com/LwqjbBBTxzKBrx0vQSOaDU4xiAY=/0x0:1269x783/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/y/T/SSAnGhRzSRAr7iaHjGGg/whatsapp-image-2020-07-31-at-14.41.24.jpeg') center center / cover no-repeat;
+     
 }
 
 header nav ul {
@@ -24,7 +26,7 @@ header nav ul {
 
     a {
         text-decoration: none;
-        color: oklch(52.7% 0.154 150.069);
+        color: oklch(71.824% 0.13863 231.73);
         font-weight: 500;
     }
 
@@ -52,26 +54,84 @@ header article {
 }
 
 main {
-    background-color: #a3a3a3;
+    background-color: #6919e9;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    padding: 0rem 8rem;
 }
 
 main section {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 4rem;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
 }
 
 main section img {
-  width: 50%;
+    width: 50%;
 }
 
 main section:nth-child(even) {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+
+article article {
+    padding: 0rem 8rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: oklch(71.824% 0.13863 231.731);
+}
+
+
+
+h3 {
+    font-size: 5rem;
+    font-size: 1rem;
+
+    text-align: center;
+}
+
+p {
+    color: #FFF;
+}
+
+footer {
+    background-color: #6919e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    font-size: 8rem;
+    font-size: 4rem;
+    color: white;
+
+    text-align: center;
+
+    container-img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footer-image {
+    width: 100%;
+    background-image: url('./img/img\ tusca.jpg');
+    background-position: center;
+    height: 20rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
